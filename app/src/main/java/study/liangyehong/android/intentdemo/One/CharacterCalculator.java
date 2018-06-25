@@ -1,4 +1,4 @@
-package study.liangyehong.android.intentdemo;
+package study.liangyehong.android.intentdemo.One;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.RadioGroup;
 import android.widget.Toast;
+
+import study.liangyehong.android.intentdemo.R;
 
 public class CharacterCalculator extends AppCompatActivity {
 

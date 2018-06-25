@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="study.liangyehong.android.intentdemo.ResultActiviyt">
+    tools:context="study.liangyehong.android.intentdemo.One.ResultActiviyt">
 
     <TextView
         android:id="@+id/tv_name"

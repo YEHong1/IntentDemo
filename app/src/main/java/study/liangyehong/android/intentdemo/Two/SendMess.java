@@ -1,4 +1,4 @@
-package study.liangyehong.android.intentdemo;
+package study.liangyehong.android.intentdemo.Two;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import study.liangyehong.android.intentdemo.R;
 
 public class SendMess extends AppCompatActivity {
 

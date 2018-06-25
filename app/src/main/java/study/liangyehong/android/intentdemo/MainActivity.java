@@ -6,6 +6,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import study.liangyehong.android.intentdemo.One.CharacterCalculator;
+import study.liangyehong.android.intentdemo.Three.SmsMain;
+import study.liangyehong.android.intentdemo.Two.SendMess;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button btn1;
@@ -41,7 +45,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent2);
                 break;
             case R.id.btn3:
-
+                Intent intent3 = new Intent(this,SmsMain.class);
+                startActivity(intent3);
                 break;
         }
     }
